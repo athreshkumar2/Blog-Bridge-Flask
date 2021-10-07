@@ -1,0 +1,25 @@
+{
+  "params":
+  {
+    "local_server":"True",
+    "local_uri": "mysql://root:@localhost/codingthunder",
+    "prod_uri":"mysql://root:@localhost/codingthunder",
+    "fb_url":"https://www.facebook.com/kumarathresh",
+    "tw_url":"https://www.instagram.com/athresh_jr/",
+    "gh_url": "https://github.com/athreshkumar2",
+    "li_url": "https://www.linkedin.com/in/athresh-kumar-labde-b118a5202",
+    "blog_name": "Blog Bridge",
+    "tag_line": "Let the good times roll",
+    "gmail-user":"athreshkumar2001@gmail.com",
+    "gmail-password":"Abcdef@123",
+    "about_text": "Hi my name is Athresh and I like programming",
+    "no_of_posts": 3,
+    "login_image":"login.svg",
+    "admin_user":"athresh",
+    "admin_password": "Abcdef@123",
+    "upload_location":"C:\\Users\\athre\\Downloads\\Python-Flask-Blog-master\\static"
+
+
+  }
+
+}
