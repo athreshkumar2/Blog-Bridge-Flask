@@ -37,7 +37,35 @@
         </div>
       </nav>
 
-      <img src="static/img/home-bg1.jpg" class="img-fluid mw-100 mh-100" alt="...">
+      <!-- <img src="static/img/home-bg1.jpg" class="img-fluid mw-100 mh-100" alt="..."> -->
+
+      <!-- Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="static/img/publish-bg1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="static/img/publish-bg2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="static/img/publish-bg3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
       <!-- Model Starting -->
     <button type="button" class="btn btn-danger btn-lg position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Click here to Publish Blog</button>
@@ -78,7 +106,7 @@
     </div>
   </div>
   <!-- Footer -->
-  <div class="b-example-divider"></div>
+  <div class="b-example-divider .bg-dark"></div>
 
     <div class="container">
       <footer class="py-1 my-2">
